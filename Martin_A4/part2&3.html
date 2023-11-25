@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>A4 - Quiz App (part 2 & 3)</title>
+    <link rel="stylesheet" href="main.css">
+    </link>
+    <script src="part2&3.js"></script>
+
+</head>
+
+<body>
+    <h1></h1>
+
+    <div id="tabContainer">
+
+    </div>
+
+    <!--output area for parsed json-->
+    <div id="questionsArea"></div>
+
+    
+        <div class="controls">
+            <button id="btnQuizSubmit">Submit Quiz</button>
+            <!--dropdown-->
+            <select>
+                <option value="Geography">Geography Quiz</option>
+                <option value="Math">Math Quiz</option>
+                <option value="Music Short">Short Music Quiz</option>
+                <option value="Music Long">Long Music Quiz</option>
+            </select>
+            <!--generate answers & load new quiz buttons-->
+            
+            <button id="btnNewQuiz">&#128072; Load New Quiz</button>
+            <button id="btnGenerateAnswers">Generate Results</button>
+            
+        </div>
+
+        
+        <div id="score"></div>
+        <div id="results"></div>
+</body>
+
+</html>

@@ -1,0 +1,164 @@
+/*GENERAL*/
+body {
+    margin: 0px;
+    padding: 0px;
+    background: #3e3e42;
+    font-family: sans-serif;
+}
+h1 {
+    margin-top: 0px;
+    text-align: center;
+    font-size: 2.65rem;
+    background: #1e1e1e;
+    color: darkgrey;
+    padding: 15px;
+}
+/*Buttons & dropdown at top*/
+.controls {
+    width: fit-content;
+    margin: auto;
+}
+button, select {
+    background: #007acc;
+    border-style: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+button:hover, select:hover, option:hover {
+    background: #006bb3;
+    cursor:pointer;
+}
+/*each question block*/
+.question {
+    display: grid;
+    background: lightgray;
+    width: 65%;
+    margin: auto;
+    margin-bottom: 30px;
+    border: solid 2px black;
+    border-radius: 5px;
+}
+h2 {
+    margin: 0px;
+    background: darkgrey;
+    padding: 15px;
+}
+p {
+    margin-left: 15px;
+    margin-bottom: 35px;
+}
+#inputLabelContainer {
+    margin-top: 30px;
+}
+#inputLabelContainer:hover {
+    font-weight: bold;
+}
+input {
+    margin-left: 45px;
+    margin-bottom: 25px;
+}
+input:hover+label { 
+    /*works by adding label (sibling element) to hover condition
+    allowing for the label to become bold when user hovers over radio button*/
+    font-weight: bold;
+}
+.previous, .next {
+    background: darkgrey;
+    color: lightgray;
+    font-weight: bold;
+    width: 100px;
+    border: none;
+}
+.previous {
+    float: left;
+    margin-left: 35px;
+}
+.next {
+    margin-left: 35px;
+}
+.previous:hover, .next:hover {
+    background: #3e3e42;
+}
+/*submit button for part 1 (cosmetic)*/
+#btnSubmit {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+/*submit button for part 2 & 3 (functional)*/
+#btnQuizSubmit {
+    background: #cc5200;
+}
+#btnQuizSubmit:hover {
+    background: #b34800;
+    font-weight: bold;
+}
+.hidden {
+    display: none;
+}
+.active  { 
+    background: green !important;
+    font-weight: bold;
+}
+#tabContainer {
+    margin: auto;
+    width: fit-content;
+}
+.tab {
+    display: inline-block;
+    margin: auto;
+    padding: 15px;
+    background: #006bb3;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    border: 2px solid black;
+}
+.tab:hover {
+    cursor:pointer;
+    background: green;
+}
+/*test results*/
+#score {
+    font-weight: bold;
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    background: #1e1e1e;
+    color: lightgray;
+    padding: 10px;
+    border-radius: 10px;
+}
+#results {
+    width: fit-content;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 35px;
+    max-width: 60%;
+}
+th {
+    background: #1e1e1e;
+    padding: 10px;
+    color: lightgray;
+}
+td {
+    background: lightgray;
+    padding: 10px;
+}
+
+/*for answers*/
+.green {
+    color: green;
+}
+.red {
+    color: #b30011;
+}
+.score {
+    text-align: center;
+}
+.checkX {
+    background: none !important;
+}
+

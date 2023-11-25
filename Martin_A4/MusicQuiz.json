@@ -1,0 +1,26 @@
+{
+    "title": "Music Trivia", 
+    "questions": [
+        {
+            "questionText": "In 1968 Johnny Cash released a live album titled: '_____'",
+            "choices": ["Live at The Roxy", "At Folsom Prison", "Live at Madison Square Garden"],
+            "answer": 1
+        },
+        {
+            "questionText": "Which of the following songs was written by The Clash?",
+            "choices": ["Mr. Brightside (2004)", "Mystery Train (1953)", "I Fought the Law (1966)", "London Calling (1979)", "Run to the Hills (1982)"],
+            "answer": 3
+        },
+        {
+            "questionText": "Which of the following albums was recorded by John Coltrane?",
+            "choices": ["A Love Supreme (1965)", "Californication (1999)", "Hybrid Theory (2000)", "What's Going on (1971)"],
+            "answer": 0
+        },
+        {
+            "questionText": "Which of the following songs appeared in the 2008 RPG Fallout 3?",
+            "choices": ["'I don't want to Want to Set the World on Fire' (1941) - The Ink Spots", "'Lost Highway' (1948) - Leon Payne", "'Big Iron' (1959) - Marty Robbins", "'Hey, Good Lookin' ' (1951) - Hank Williams"],
+            "answer": 0
+        }
+    ]
+}
+

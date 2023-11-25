@@ -1,0 +1,66 @@
+{
+    "title": "Music Trivia (International)",
+    "questions": [
+        {
+            "questionText": "In the 1960s the Nigerian musician Fela Kuti pioneered a genre of music known as Afrobeat",
+            "choices": ["True", "False"],
+            "answer": 0
+        },
+        {
+            "questionText": "The đàn bầu is a Traditional Vietnamese instrument that has only 1 string",
+            "choices": ["True", "False"],
+            "answer": 0
+        },
+        {
+            "questionText": "The 1960s jazz guitarist Gábor Szabó was from which country?",
+            "choices": ["Angola", "Ecuador", "Algeria", "Hungary"],
+            "answer": 3
+        },
+        {
+            "questionText": "Which of the following artists is from Algeria?",
+            "choices": ["Duman", "System of a Down", "Rachid Taha"],
+            "answer": 2
+        },
+        {
+            "questionText": "The members of System of a Down are all of _____ Descent",
+            "choices": ["Japanese", "Armenian", "Danish"],
+            "answer": 1
+        },
+        {
+            "questionText": "Which of the following artists is NOT from Denmark?",
+            "choices": ["Volbeat", "Aqua", "Myrkur", "Björk", "MØL"],
+            "answer": 3
+        },
+        {
+            "questionText": "Duman is a(n) _____ rock band",
+            "choices": ["Turkish", "Indian", "Iranian"],
+            "answer": 0
+        },
+        {
+            "questionText": "This Mongolian folk-metal band covered Metallica's 'Sad but True' in 2020",
+            "choices": ["Rammstein", "Hüsker Dü", "The HU"],
+            "answer": 2
+        },
+        {
+            "questionText": "The band Rammstein is from _____",
+            "choices": ["kazakhstan", "Russia", "The Faroe Islands", "Germany"],
+            "answer": 3
+        },
+        {
+            "questionText": "Where is the artist Björk from?",
+            "choices": ["Stockholm, Sweden", "Copenhagen, Denmark", "Reykjavík, Iceland", "Oslo, Norway"],
+            "answer": 2
+        },
+        {
+            "questionText": "Calypso music originated in _____ in the mid-19th century.",
+            "choices": ["Trinidad and Tobago", "Brazil", "Peru", "Venezuela"],
+            "answer": 0
+        },
+        {
+            "questionText": "Los Saicos was a Peruvian band in the 1960s known for being a very early pioneer which genre of music?",
+            "choices": ["Rap", "Funk", "Punk Rock", "Disco"],
+            "answer": 2
+        }
+    ]
+
+}
